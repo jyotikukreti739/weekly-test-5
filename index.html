@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book App</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="full-container">
+        <div class="header">
+            <div class="left-header">
+                <span class="icon">
+                    <img class="logo" src="data:image/jpeg;base64,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" alt="">
+                </span>
+                <span class="book">Book</span>
+            </div>
+            <div class="right-header">
+                <button class="toggle">
+                    <div class="circle"></div>
+                </button>
+                <div class="side-container">
+                    <button class="signup">Sign Up</button>
+                    <!-- <img class="arrow" src="https://cdn-icons-png.flaticon.com/128/545/545682.png" alt=""> -->
+                </div>
+            </div>
+        </div>
+
+        <div class="main-container">
+            <div class="left-container">
+                <div class="all-categories">
+                    <span class="category">ALL CATEGORIES</span>
+                    <ol>
+                        <li>Business Books</li>
+                        <li>Audio Nonfiction</li>
+                        <li>Hardcover Nonfiction</li>
+                        <li>Series Books</li>
+                        <li>Advice How-To and Miscellaneous</li>
+                        <li>Mass Market Monthly</li>
+                        <li>Picture Books</li>
+                        <li>Hardcover Fiction</li>
+                        <li>Trade Fiction Paperback</li>
+                        <li>Audio Fiction</li>
+                        <li>Childrens Middle Grade Hardcover</li>
+                        <li>Paperback Nonfiction</li>
+                        <li>Young Adult Hardcover</li>
+                        <li>Combined Print and E-Book Fiction</li>
+                        <li>Combined Print and E-Book Nonfiction</li>
+                        <li>Graphic Books and Manga </li>
+                        <li>Middle Grade Paperback Monthly</li>
+                        <li>Young Adult Paperback Monthly</li>
+                    </ol>
+                </div>
+            </div>
+            <div class="right-container">
+                <h1>Best Sellers <span class="clr">Books</span></h1>
+                <h5>ADVICE HOW-TO AND MISCELLANEOUS</h5>
+                <div class="books-box">
+                    <div class="book-container">
+                        <img class="book-img" src="https://storage.googleapis.com/du-prd/books/images/9780735211292.jpg" alt="">
+                        <h4>ATOMIC HABITS</h4>
+                        <H5>James Clear</H5>
+                    </div>
+                    <div class="book-container">
+                        <img class="book-img" src="https://storage.googleapis.com/du-prd/books/images/9780593652886.jpg" alt="">
+                        <h4>THE CREATIVE ACT</h4>
+                        <H5>Rick Rubin With Neil Strauss</H5>
+                    </div>
+                    <div class="book-container">
+                        <img class="book-img" src="https://storage.googleapis.com/du-prd/books/images/9780593243916.jpg" alt="">
+                        <h4>THE CREATIVE ACT</h4>
+                        <H5>Rick Rubin With Neil Strauss</H5>
+                    </div>
+                </div>  
+                
+                <button class="seemore">SEE MORE</button>
+            </div>
+            </div>
+
+            <div class="main-container1">
+                <div class="main-left-box">
+                    <div class="ukraine">
+                        <h3>Support Ukraine</h3>
+                        <div class="icon">
+                            <img src="" alt="">
+                        </div>
+                    </div>
+                    <ol class="list">
+                        <li>  Save the Children</li>
+                        <li>  project HOPE</li>
+                        <li>  UNITED24</li>
+                        <li>  International Medical Corps</li>
+                        <li>  MEDECINS</li>
+                        <li>  RAZOM</li>
+                    </ol>
+                </div>
+                <div class="main-right-box">
+                    <div class="book-container">
+                        <img class="book-img" src="https://storage.googleapis.com/du-prd/books/images/9780735211292.jpg" alt="">
+                        <h4>ATOMIC HABITS</h4>
+                        <H5>James Clear</H5>
+                    </div>
+                    <div class="book-container">
+                        <img class="book-img" src="https://storage.googleapis.com/du-prd/books/images/9780593652886.jpg" alt="">
+                        <h4>THE CREATIVE ACT</h4>
+                        <H5>Rick Rubin With Neil Strauss</H5>
+                    </div>
+                    <div class="book-container">
+                        <img class="book-img" src="https://storage.googleapis.com/du-prd/books/images/9780593243916.jpg" alt="">
+                        <h4>THE CREATIVE ACT</h4>
+                        <H5>Rick Rubin With Neil Strauss</H5>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="btn1">
+                <button class="seemore see1">SEE MORE</button>
+            </div>
+        </div>
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
