@@ -2,8 +2,226 @@
     padding: 0;
     margin: 0;
 }
-
+.full-container{
+    background-color: rgb(239, 225, 225);
+}
 .header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    height: 4rem;
+    font-size: 1.7rem;
+    padding-top: 8px;
+    padding-left: 6px;
+    font-weight: bold;
+    background-color: white;
+}
+.book:hover {
+    cursor: pointer;
+    font-size: 2rem;
+
+}
+.logo{
+    height: 2.2rem;
+    width: 2rem;
+
+}
+.logo:hover{
+    height: 2.5rem;
+    width: 2.5rem;
+    cursor: pointer;
+
+
+}
+.left-header{
+    margin: 6px 0px 6px 6px;
+    display: flex;
+    gap: 4px;
+
+}
+.right-header{
+    margin: 6px 6px 6px 6px;
+    display: flex;
+    gap: 4px;
+   
+}
+.side-container{
+    position: relative;
+}
+.signup{
+    border-radius: 18px;
+    padding: 3px 3px 1px 0px;
+    border: 1px solid black;
+    color: white;
+    background-color: blue;
+    height: 2rem;
+    width: 7rem;
+   
+}
+.signup:hover{
+    font-size: 15px;
+    border: 2px solid black;
+    background-color: yellow;
+    color: black;
+
+}
+.arrow{
+    position: absolute;
+
+}
+.toggle{
+    margin: 13px;
+    width: 2rem;
+    height: 1rem;
+    background-color: blue;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 0 6px; */
+    cursor: pointer;
+    display: flex;
+    position: relative;
+    border: 1px solid black;
+   
+}
+
+
+.circle{
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: #fff;
+    transition: transform .5s, background-color .5s;
+    will-change: transform;
+}
+.main-container{
+    display: flex;
+    /* justify-content: space-evenly; */
+}
+.left-container{
+    height: 100px;
+    margin: 30px;
+}
+.all-categories{
+    height: 10rem;
+    width: 20rem;
+
+}
+.category{
+    color: blue;
+}
+.category:hover{
+    
+    cursor: pointer;
+
+}
+
+.all-categories ol{
+   list-style: none;
+   padding-left: 5px;
+   margin: 10px;
+   
+}
+.all-categories ol li{
+    padding-bottom: 12px;
+    color: rgb(159, 154, 154);
+    cursor: pointer;
+    font-size: larger;
+
+}
+.all-categories ol li:hover{
+    cursor: pointer; 
+    font-size: 20px;
+    color: blue;
+}
+.right-container{
+    height: 39rem;
+    width: 40%;
+    margin: 25px;
+    margin-left: 7rem;
+    
+    
+}
+.right-container h1{
+    font-size: 3rem;
+    margin-left: 1rem;
+    margin-bottom: 1.3rem;
+}
+.right-container h5{
+    color: rgb(171, 165, 165);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 1rem;
+    font-weight: 100;
+}
+.clr{
+    color: blue;
+}
+.books-box{
+    display: flex;
+    gap: 20px;
+}
+.book-img{
+    margin-top: 2rem;
+    height: 15rem;
+    width: 11rem;
+}
+.seemore{
+    height: 3rem;
+    width: 8rem;
+    border-radius: 2rem;
+    border: 2px solid blue;
+    background-color: white;
+    font-weight: bold;
+    padding: 5px;
+    margin-top: 1.9rem;
+    margin-left: 35rem;
+}
+.seemore:hover{
+    cursor: pointer;
+    background-color: blue;
+}
+.main-left-box{
+    height:30rem;
+    width: 20rem;
+    background-color: blue;
+    margin-top: 2rem;
+    margin-left: 1.5rem;
+    border-radius: 20px;
+    position: relative;
+}
+.main-container1{
+    display: flex;
+    /* justify-content: space-evenly; */
+    gap: 10rem;
+}
+.ukraine{
+    padding-top: 1rem;
+    padding-left: 1.5rem;
+    font-size: large;
+    color: white;
+}
+.list{
+    color: white;
+    padding-left: 3rem;
+    
+}
+.list li{
+    padding-bottom: 2.5rem;
+    font-size: 1rem;
+}
+.list li:hover{
+    color: orange;
+    cursor: pointer;
+}
+.main-right-box{
+    display: flex;
+    gap: 2rem;
+}
+.see1{
+    margin-left: 67rem;
 }
